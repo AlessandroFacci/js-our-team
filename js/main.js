@@ -34,3 +34,22 @@ const team = [
     img: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+//# MILESTONE 1
+
+// stampare su console per ogni membro del team le informazioni
+
+// nome
+for (const names of team) {
+  console.log(names.name);
+}
+
+// ruolo
+for (const jobs of team) {
+  console.log(jobs.job);
+}
+
+// la stringa della foto
+for (const images of team) {
+  console.log(images.img);
+}
