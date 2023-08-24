@@ -39,9 +39,11 @@ const team = [
 
 // stampare su console per ogni membro del team le informazioni
 
-// nome
 for (const teamWork of team) {
+  // nome
   console.log(teamWork.name);
+  // ruolo
   console.log(teamWork.job);
+  // la stringa della foto
   console.log(teamWork.img);
 }
