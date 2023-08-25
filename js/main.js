@@ -69,13 +69,12 @@ const cardsContainer = document.getElementById("cards-container");
 
 for (const teamWork of team) {
   cardsContainer.innerHTML += `
-<div class="card-group">
+<div class="col-4">
   <div class="card">
     <img src="./img/${teamWork.img}" class="card-img-top">
     <div class="card-body">
       <h5 class="card-title">${teamWork.name}</h5>
       <p class="card-text">${teamWork.job}</p>
-      
     </div>
   </div>
 </div>
